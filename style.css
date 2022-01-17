@@ -4,12 +4,12 @@ body{
     }
     h1{
         font-size: 50px;
-        color:purple;
+        color:black;
     }
     .orange{
         color:orchid;
     }
-    section{
+    .flexible-container {
         display: flex;
         margin-bottom: 150px;
     }
