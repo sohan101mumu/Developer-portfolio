@@ -6,6 +6,9 @@ body{
         font-size: 50px;
         color:black;
     }
+    h2{
+        font-size: 40px;
+    }
     .orange{
         color:orchid;
     }
@@ -39,3 +42,31 @@ body{
         background-repeat: no-repeat;
         background-position: right;
     }
+    .experience-area{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .Experiences{
+box-shadow:10px 10px 40px darkorchid;
+width: 60%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 15px;
+border-left: 10px solid;
+    }
+#web-deb-experions{
+    border-left: 7px solid;
+   border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#fullstac-developer{
+    border-left: 7px solid;
+   border-image: linear-gradient(salmon,red);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
